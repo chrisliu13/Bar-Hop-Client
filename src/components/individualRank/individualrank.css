@@ -1,0 +1,50 @@
+.bh__IndividualRank{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-footer);
+     /* Shifts the image 20px down and 40px to the right */
+    /* ff 3.6+ */
+    background: rgb(248, 233, 233);
+    border-bottom: 15px solid rgb(0, 0, 0);
+}
+.housingbar{
+    width:220px;
+    height: 220px;
+}
+.fontPop{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 0.75rem;
+    color: #81AFDD;
+    text-decoration: underline;
+}
+.font{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 0.15rem;
+    color: #81AFDD;
+}
+.fontHeader{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 0.75rem;
+    color: #81AFDD;
+    
+}
+.fontRank{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-top: 0.75rem;
+    color: #81AFDD;
+}

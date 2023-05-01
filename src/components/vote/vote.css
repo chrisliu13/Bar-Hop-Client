@@ -1,0 +1,21 @@
+.bh__vote{
+    max-width: 500px;
+    border: 2px solid #ffffff;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex:center;
+}
+.bh__vote label{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 188% */
+    color: #81AFDD;
+}
+#thankyou{
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 18px;
+}
