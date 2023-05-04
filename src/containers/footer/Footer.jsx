@@ -19,6 +19,8 @@ const Footer = () => {
         <div className = 'bh__footer-links_div'>
           <h4>Policy</h4>
           <p>Terms and Conditions</p>
+          <p>Privacy Policy</p>
+          <p>Terms of Use</p>
         </div>
         <div className = 'bh__footer-links_div'>
           <h4>Get in touch</h4>
