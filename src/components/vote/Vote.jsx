@@ -43,7 +43,7 @@ function Vote(){
     if(!submitted){
         return(
             <form onSubmit={handleSubmit} className = "bh__vote" netlify>
-                <label htmlFor="bar">Vote for a Bar: </label>
+                <label htmlFor="bar"><b>Second Step:</b> Vote for a Bar </label>
                     <select id="bar" name="bar" value={bar} onChange={handleBarChange} required>
                         <option value="">-- Select Bar -- </option>
                         <option value="RedShed">Red Shed</option>
