@@ -12,8 +12,8 @@ const App = () => {
         <Header/>
       </div>
       <Brand/>
-      <Functionality/>
       <GetStarted/>
+      <Functionality/>
       <Footer/>
     </div>
   )
