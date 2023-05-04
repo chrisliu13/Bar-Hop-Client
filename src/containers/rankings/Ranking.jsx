@@ -6,7 +6,7 @@ const Ranking = () => {
     const [stats,setStats] = useState([]);
     //retrieving backend data
     useEffect(() => {
-        fetch('/retrieve').then(response => response.json())
+        fetch('https://barhop.herokuapp.com/retrieve').then(response => response.json())
         .then(data => setStats(data)) //stats becomes an array of objects
         .catch(error => console.error(error));
     }, []);
