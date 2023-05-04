@@ -1,6 +1,7 @@
 .bh__vote{
     max-width: 500px;
     border: 2px solid #ffffff;
+    background-color: bisque;
     padding: 2rem;
     justify-content: center;
     align-items: center;

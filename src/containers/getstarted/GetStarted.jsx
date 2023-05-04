@@ -7,7 +7,7 @@ const GetStarted = () => {
     <div className = "bh__getstarted section_margin" id = "start">
       <div className = "bh__getstarted-heading">
         <h1 className = "gradient__text">
-          Questionare
+          First Step: Questionare
         </h1>
       </div>
       <div>
