@@ -55,6 +55,9 @@
     .bh__header-content{
         margin: 0 0 3rem;
     }
+    .section__padding {
+        padding: 4rem 4rem;
+    }
 }
 
 @media screen and (max-width:650px){
