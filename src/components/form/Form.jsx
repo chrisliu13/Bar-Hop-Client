@@ -46,7 +46,7 @@ function Form() {
     };
   if(!submitted){
     return (
-        <form onSubmit={handleSubmit} className = "bh__form">
+        <form onSubmit={handleSubmit} className = "bh__form" netlify>
             <label htmlFor="age">Graduation Year:</label>
                 <select id="age" name="age" value={age} onChange={handleAgeChange} required>
                     <option value="">-- Select Year -- </option>

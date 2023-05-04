@@ -42,7 +42,7 @@ function Vote(){
     //citybar,irish pub, monday's, brats
     if(!submitted){
         return(
-            <form onSubmit={handleSubmit} className = "bh__vote">
+            <form onSubmit={handleSubmit} className = "bh__vote" netlify>
                 <label htmlFor="bar">Vote for a Bar: </label>
                     <select id="bar" name="bar" value={bar} onChange={handleBarChange} required>
                         <option value="">-- Select Bar -- </option>
