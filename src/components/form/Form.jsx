@@ -24,7 +24,7 @@ function Form() {
             return;
         }
         //all test stuff below. Sends data to server ****
-        const response = await fetch('https://barhop.herokuapp.com/submit-form', {
+        const response = await fetch('/submit-form', {
             method: 'POST',
             headers: {
             'Content-Type': 'application/json'
